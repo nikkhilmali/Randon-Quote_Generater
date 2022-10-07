@@ -31,7 +31,6 @@ const quotes = [{
 }]
 
 const quoteBtn = document.getElementById('quote-btn');
-// Get Quote and author Section
 const quote = document.querySelector('.quote');
 const author = document.querySelector('.author');
 

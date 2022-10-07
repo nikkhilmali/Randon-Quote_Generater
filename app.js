@@ -29,12 +29,12 @@ const quotes = [{
     quote: `Coding is not just code, that is a live thing to serve everyone!`,
     author: `- Ming Song`
 }]
-// New Quote Button
+
 const quoteBtn = document.getElementById('quote-btn');
 // Get Quote and author Section
 const quote = document.querySelector('.quote');
 const author = document.querySelector('.author');
-// Event Handler
+
 quoteBtn.addEventListener('click', () => {
     let random = Math.floor(Math.random() * quotes.length);
     quote.innerHTML = quotes[random].quote;
